@@ -1,0 +1,48 @@
+
+.text{
+    border: 2px solid blue;
+    height: 50px;
+}
+
+.text:focus{
+    border: 2px solid orchid;
+    outline: none;
+}
+p{
+    border: 2px solid brown;
+    color: aqua;
+    font-size: larger;
+    font-weight: 700;
+}
+
+p:focus{
+border: 5px solid green;
+outline: none;
+}
+
+ol{
+    list-style: none;
+    color:blue;
+    text-align: center;
+    font-size: larger;
+}
+
+ol li:first-child{
+background-color: aqua;
+}
+
+
+ol li:last-child{
+background-color:red;
+}
+
+ol li:nth-child(2n){
+    background-color: antiquewhite;
+}
+
+
+
+
+
+
+

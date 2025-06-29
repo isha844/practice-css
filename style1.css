@@ -1,0 +1,38 @@
+p{
+    height: 100px;
+    width: 100px;
+    background-color: bisque;
+    overflow: visible;
+    overflow: hidden;
+}
+h1{
+    height: 200px;
+    width: 150px;
+    background-color: aquamarine;
+    overflow:scroll;
+    /* overflow: auto; */
+    
+}
+
+/* opacity */
+h2{
+    opacity: 0.1;
+}
+h2:hover{
+    opacity: 0.9;
+}
+
+/* flot */
+.isha{
+    text-align: center;
+    background-color: blueviolet;
+    font-size: larger;
+    float: right;
+}
+
+.musu{
+    text-align: center;
+    background-color: brown;
+    font-size: larger;
+    /* float: left; */
+}
