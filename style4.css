@@ -1,0 +1,26 @@
+
+h6 {
+    background-image: url(images/img.png);
+    color: transparent;
+    background-clip: text;
+    font-size: 20px;
+}
+
+div p{
+    color: fuchsia;
+}
+
+h1, p{
+color: green;
+}
+
+ div h2 + p {
+    color: red;
+}
+
+header p ~ h4 {
+    color: aquamarine;
+    font-size: larger;
+} 
+
+

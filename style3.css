@@ -1,0 +1,38 @@
+span{
+    background-image: url(images/img.png);
+    color: transparent;
+    background-clip: text;
+    font-size: 40px;
+}
+
+
+h1::before {
+    content: "FULL-NAME";
+    font-size: 20px;
+    color: #0fb752;
+}
+
+h1::after {
+    content: ".................";
+    font-weight: 100;
+    color: blueviolet;
+}
+
+p::first-letter{
+    font-size: larger;
+    color: greenyellow;
+}
+
+p::first-line {
+    font-size: xx-large;
+    color: pink;
+}
+
+div p::selection{
+    background-color: red;
+}
+
+li::marker{
+    color: darkmagenta;
+    font-size: 0.85rem;
+}
