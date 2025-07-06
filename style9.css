@@ -1,0 +1,14 @@
+div{
+    height: 300px;
+    width: 300px;
+    background-image: conic-gradient(from 180deg at 60% 60%,red,blue,green,yellow,white);
+}
+
+header{
+    height: 400px;
+    width: 400px;
+    /* background-image: radial-gradient(ellipse at 50% 50% blue,green,orange,aqua); */
+    background-image: linear-gradient(white,blue,pink,orange,green);
+}
+
+    
